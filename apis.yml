@@ -1,8 +1,14 @@
 aid: hazel-health
 name: Hazel Health
-description: 'Hazel Health is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hazel Health is the nation''s leading provider of school-based telehealth, delivering virtual
+  physical and mental health care to K-12 students. Founded in 2015 and headquartered in San Francisco,
+  California, Hazel partners directly with school districts and families to connect students with licensed,
+  linguistically and culturally diverse clinicians and therapists — at school or at home — often within
+  minutes for medical care and within days for teletherapy, at no cost to families. The company serves
+  more than two million students across 100-plus districts nationwide, helping reduce chronic absenteeism
+  and address gaps in access to care as an extension of the school health team. Hazel operates HIPAA- and
+  FERPA-compliant systems with full encryption and secure access controls. It is a B2B/B2G healthcare
+  provider and does not currently publish a public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/hazel-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6726adae0a7647e5cdcb00e3/68474e66e54ff774a3c054b2_hazel-og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Telehealth
+- Mental Health
+- Behavioral Health
+- K-12 Education
+- Digital Health
+- Virtual Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hazel-health-domain-security.yml
 - type: Website
   url: https://www.hazel.co/
+- type: SignUp
+  url: https://www.hazel.co/get-started
+- type: Login
+  url: https://my.hazel.co/
+- type: Support
+  url: https://www.hazel.co/faq
+- type: Blog
+  url: https://www.hazel.co/resources/newsroom
+- type: PrivacyPolicy
+  url: https://www.hazel.co/pages/privacy-policy
+- type: TermsOfService
+  url: https://www.hazel.co/pages/terms-of-service
+- type: About
+  url: https://www.hazel.co/company/about-us
+- type: Careers
+  url: https://www.hazel.co/company/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
